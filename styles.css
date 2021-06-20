@@ -39,3 +39,27 @@ h1 {
     border-bottom: 1px solid #000000;
     padding: 2px 5px;
 }
+
+/* navbar CSS starts*/
+
+.bg-light{
+    padding: 2rem;
+    background-color: #0e880e!important;
+}
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #66ee9e!important;
+}
+
+.nav-link{
+    color: #66ee9e!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #f3f1f1;
+}
+
+/* navbar CSS ends */
