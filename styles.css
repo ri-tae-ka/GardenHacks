@@ -31,7 +31,7 @@ h1 {
 .card {
     align-items: center;
     margin: auto;
-    width: 80%;
+    width: 50%;
 }
 
 .input-line {
@@ -58,6 +58,8 @@ h1 {
 .nav-link{
     color: #66ee9e!important;
     font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 10px;
+    font-size: larger;
 }
 
 .nav-link:hover{
