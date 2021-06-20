@@ -52,6 +52,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     color: #66ee9e!important;
+    font-weight: ;
 }
 
 .nav-link{
@@ -61,7 +62,7 @@ h1 {
 
 .nav-link:hover{
     background-color: #bce4aa;
-    color: #199e19;
+    color: #199e19 !important;
 }
 
 .navbar-nav {
