@@ -27,6 +27,12 @@ h1 {
     font-weight: 600;
 }
 
+.card {
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+
 .input-line {
     background: transparent;
     border: none;
