@@ -1,0 +1,35 @@
+body {
+    background-size: 100rem;
+    background-image: url(images/garden.jpg);
+}
+
+h1 {
+    padding: 7rem 0 3rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #149614;
+}
+
+.input-query {
+    color: #096809;
+    font-size: 2rem;
+    padding-left: 40%;
+    font-weight: 600;
+}
+
+.btn {
+    font-size: 2rem;
+    padding: 0 2rem;
+    margin-top: 1rem;
+    margin-left: 42rem;
+    font-weight: 600;
+}
+
+.input-line {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 2px 5px;
+}
