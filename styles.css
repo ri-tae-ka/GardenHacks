@@ -43,8 +43,8 @@ h1 {
 /* navbar CSS starts*/
 
 .bg-light{
-    padding: 2rem;
-    background-color: #0e880e!important;
+    padding: 1.5rem;
+    background-color: #199e19!important;
 }
 
 .navbar-brand{
@@ -59,7 +59,7 @@ h1 {
 }
 
 .nav-link:hover{
-    background-color: #f3f1f1;
+    background-color: #bce4aa;
 }
 
 /* navbar CSS ends */
