@@ -17,9 +17,18 @@ function getWeather(city, stateCode = null, countryCode = null) {
     .then(data => {
                     console.log(data);
                     const cardBody = document.querySelector(".card-body");
-                    const dataPretty = JSON.stringify(data, null, 2); 
-                    cardBody.textContent = dataPretty;
-                    });
+                    // const dataPretty = JSON.stringify(data, null, 2); 
+
+                    // text to display
+                    var dataDisplay = "";
+
+                    var main = data["main"];
+                    dataDisplay += `Temperature feels like ${main["feels_like"]}<br>`;
+                    dataDisplay += `Temperature: ${main["temp"] - 273.15} °C<br>`;
+                    dataDisplay += `Humidity: ${main["humidity"]}%<br>`;
+                    dataDisplay += `Pressure: ${main["pressure"]} mbar<br>`;
+                    cardBody.innerHTML = dataDisplay;
+    });
 }
 
 function submitCity() {
