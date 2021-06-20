@@ -10,7 +10,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    font-size: 1.3rem;		    
+    font-size: 1.3rem;	
+    background-size: 100rem;
+    background-image: url(images/garden.jpg);    	    
 }
 .hero {
 	position: absolute;
@@ -52,3 +54,35 @@ li {
 	border: 1px solid #e9ecef;
 	border-radius: 3px;
 }
+
+/* navbar CSS starts*/
+
+.bg-light{
+  padding: 1.5rem;
+  background-color: #199e19!important;
+}
+
+.navbar-brand{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: #66ee9e!important;
+  font-weight: bold;
+}
+
+.nav-link{
+  color: #66ee9e!important;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-left: 10px;
+  font-size: larger;
+}
+
+.nav-link:hover{
+  background-color: #bce4aa;
+  color: #199e19 !important;
+}
+
+.navbar-nav {
+  margin-left: 80%;
+}
+
+/* navbar CSS ends */
