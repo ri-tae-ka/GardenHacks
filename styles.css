@@ -64,4 +64,8 @@ h1 {
     color: #199e19;
 }
 
+.navbar-nav {
+    margin-left: 80%;
+}
+
 /* navbar CSS ends */
